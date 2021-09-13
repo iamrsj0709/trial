@@ -1,0 +1,399 @@
+﻿<!DOCTYPE html>
+<!-- saved from url=(0107)file:///E:/all%20files%20to%20reboot%20the%20laptop/new%20volume%20d/RHYNA/3.HTML%20PROJECTS/HTMLPage2.html -->
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <title>project 1</title>
+    <style>
+        body {
+            font-family: "Avenir Next";
+            background-image: url(https://images.unsplash.com/photo-1541976844346-f18aeac57b06?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGhlcmFweXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80);
+       
+            }
+
+        li {
+            list-style: none;
+
+        }
+
+        .header {
+            background-color: lightskyblue;
+            background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/589/624/small/blue-themed-floral-background-with-plant-free-vector.jpg);
+            color: #fff;
+            height: 100px;
+            
+        }
+
+        .logo {
+            float: left;
+        padding: 0px 30px 0px 10px;
+        }
+
+        .list li {
+            color: rgb(8, 8, 141);
+            float: left;
+            font-size: 20px;
+            padding: 10px 30px ;
+          
+        }
+       
+        
+        para {
+            padding: 100px 80px;
+        }
+
+        .opening h1 {
+            font-size: 80px;
+            font-style: italics;
+        }
+
+        .opening h2 {
+            font-size: 50px;
+        }
+
+        .img {
+            float: left;
+            padding: 20px 20px;
+        }
+
+        .opening span {
+            color:white;
+        }
+        .menu {
+            background-color: lightskyblue;
+           width: 1315;
+            height:860px;
+        }
+
+        .topics h2 {
+            font-size: 40px;
+            color: rgb(180, 123, 180);
+            text-align: center;
+            padding: 70px 0.5px 0.5px 10px;
+            font-style: fantasy;
+        }
+
+        .dropbtn {
+            color: white;
+            background-color: dodgerblue;
+            border: none;
+            cursor: pointer;
+            padding: 0px 30px 0px 10px;
+            font-size: 20px;
+            text-align: center;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 9px #999;
+            box-align: center;
+            padding: 28px 50px;
+        }
+
+            .dropbtn:hover, .dropbtn:focus {
+                background-color: rgb(46, 41, 1)
+                box-shadow: 0 2px #666;
+                transform: translateY(4px);
+            }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: rgb(129, 157, 170);
+            min-width: 160px;
+            overflow: auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+            .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+            }
+
+        .dropdown a:hover {
+            background-color: #ddd;
+        }
+
+        .show {
+            display: block;
+        }
+
+
+
+       
+
+        .about {
+            float: right;
+            color:darkblue;
+            font-style:oblique;
+            font-size: 20px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+            .about li {
+                padding-bottom: 20px;
+            }
+        .sites {
+            background-color: lightskyblue;
+            padding-left: 150px;
+            padding-centre: 200px;
+            border-padding-top: 100px;
+            padding: 40px 50px;
+            align: center;
+        }
+        .elementor-image{
+            align-content:center;
+          
+        }
+        .bottom {
+            background-image: url(https://www.onehandedbaker.com/wp-content/uploads/2018/08/blue-floral-wallpaper-light-blue-ornate-floral-wallpaper-background-products-light-blue-ornate-floral-wallpaper-background-blue-and-white-floral-wallpaper-border.jpg);
+            color: blue;
+            height: 120px;
+            padding: 40px 50px;
+        }
+        .parallax {
+            /* The image used */
+            background-image: url("https://qphs.fs.quoracdn.net/main-qimg-ab5bed3d6625801a9884667d63b2bb52");
+            /* Set a specific height */
+            min-height: 400px;
+            /* Create the parallax scrolling effect */
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    </style>
+</head>
+<body>
+    <div class="header">
+
+        <div class="logo"><img src="https://qphs.fs.quoracdn.net/main-qimg-f6c35fc6df0124c31cbbdd2657d96f4b" height="100px" /></div>
+
+        <div class="list">
+            <ul>
+
+                <li>
+                    <div class="dropdown">
+                        <button onclick="mylistitem()" class="dropbtn">ABOUT US</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a target="_blank" href="file:///C:/Users/rsjoh/Desktop/teams.html">Team</a>
+                            <a href="#b">Foundation</a>
+                            <a href="#c">Misc</a>
+
+                        </div>
+                    </div>
+
+
+                    <script>
+                        /* When the user clicks on the button,
+                        toggle between hiding and showing the dropdown content */
+                        function mylistitem() {
+                            document.getElementById("myDropdown").classList.toggle("show");
+                        }
+
+                        // Close the dropdown if the user clicks outside of it
+                        window.onclick = function (event) {
+                            if (!event.target.matches('.dropbtn')) {
+                                var dropdowns = document.getElementsByClassName("dropdown-content");
+                                var i;
+                                for (i = 0; i < dropdowns.length; i++) {
+                                    var openDropdown = dropdowns[i];
+                                    if (openDropdown.classList.contains('show')) {
+                                        openDropdown.classList.remove('show');
+                                    }
+                                }
+                            }
+                        }
+                    </script>
+                </li>
+
+
+                </script>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">WE DEAL WITH</button>
+                        <div id="second" class="dropdown-content">
+                            <a target="_blank" href="file:///C:/Users/rsjoh/Desktop/teams.html">STRESS</a>
+                            <a href="#b">ANGER</a>
+                            <a href="#c">DEPRESSION</a>
+                            <a href="#d">AND MORE...</a>
+
+                        </div>
+                    </div>
+                </li>
+                <script>
+                    /* When the user clicks on the button,
+                    toggle between hiding and showing the dropdown content */
+                    function myFunction() {
+                        document.getElementById("second").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function (event) {
+                        if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+                    }
+                </script>
+                <li>
+                    <div class="dropdown">
+                        <button onclick="mybutton()" class="dropbtn">location</button>
+                        <div id="third" class="dropdown-content">
+                            <a target="_blank" href="file:///C:/Users/rsjoh/Desktop/teams.html">Mandsaur</a>
+                            <a href="#b">indore</a>
+                            <a href="#c">delhi</a>
+                            <a href="#d">pune</a>
+
+                        </div>
+                    </div>
+                </li>
+                <script>
+                    /* When the user clicks on the button,
+                    toggle between hiding and showing the dropdown content */
+                    function mybutton() {
+                        document.getElementById("third").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function (event) {
+                        if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+                    }
+                </script>
+
+                <li>
+                    <div class="dropdown">
+                        <button onclick="mybox()" class="dropbtn">STATE</button>
+                        <div id="fourth" class="dropdown-content">
+                            <a target="_blank" href="file:///C:/Users/rsjoh/Desktop/teams.html">RAJASTHAN</a>
+                            <a href="#b">MADHYA PRADESH</a>
+                            <a href="#c">GOA</a>
+                            <a href="#d">UTTAR PRADESH</a>
+
+                        </div>
+                    </div>
+                </li>
+                <script>
+                    /* When the user clicks on the button,
+                    toggle between hiding and showing the dropdown content */
+                    function mybox() {
+                        document.getElementById("fourth").classList.toggle("show");
+                    }
+
+                    // Close the dropdown if the user clicks outside of it
+                    window.onclick = function (event) {
+                        if (!event.target.matches('.dropbtn')) {
+                            var dropdowns = document.getElementsByClassName("dropdown-content");
+                            var i;
+                            for (i = 0; i < dropdowns.length; i++) {
+                                var openDropdown = dropdowns[i];
+                                if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                }
+                            }
+                        }
+                    }
+                </script>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="parallax"></div>
+
+   
+    <div class="para">
+        <div class="opening">
+            <em><h1> TRYING <span>HARD</span> TO <span>LEARN</span> BUT <span>DON'T</span> HAVE NOTES<span>?</span></h1></em>
+            <p class="img"><img src="./project 1_files/GettyImages-505118771-2000x1307.jpg" height="200px"></p>
+            <h2>Don't worry we are here to help you get all your topics covers through interesting powerpoint presentations.<span>.</span>.<span>.</span>.</h2>
+            <h3>prepared by expert teachers and learners, here team Slide-learn brings to you a wide range of study material covering all topics as per the <span>CBSE</span> course and some extra interesting topics!!!!</h3>
+        </div>
+
+    </div>
+    <section class="menu">
+        <a data-elementor-open-lightbox="" href="https://www.marydioriolcsw.com/portland/eating-disorder">
+            <img src="https://qphs.fs.quoracdn.net/main-qimg-330d189620558ceb2b5bb9d9d4b7567e" width="430px" title="make+peace+with+food+psychotherapy" alt="make+peace+with+food+psychotherapy">
+        </a>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-1d4c8a6a2e3f4ffef562cd95a9cc938f" width="455px" title="couples+therapy+portland+oregon+holding+hands" alt="couples+therapy+portland+oregon+holding+hands">
+
+        <a data-elementor-open-lightbox="" href="https://www.marydioriolcsw.com/portland/couples-therapy/">
+            <img src="https://qphs.fs.quoracdn.net/main-qimg-b9f8369a3a48483714a88ca09184ec75" width="430px" title="couples+therapy+portland+oregon+psychotherapist" alt="couples+therapy+portland+oregon+psychotherapist">
+        </a>
+
+
+
+        <a data-elementor-open-lightbox="" href="https://www.marydioriolcsw.com/portland/anxiety-therapist">
+            <img src="https://qphs.fs.quoracdn.net/main-qimg-c8287d738eb17354db5cab87a5119357" width="430px" title="therapyforanxiety-1" alt="therapyforanxiety-1">
+        </a>
+        <img src="https://qphs.fs.quoracdn.net/main-qimg-e0ad381f36b000bc7979d41962d2f38d" width="455" height="430" title="woman+smiling+body+positive+eating+disorder+therapy" alt="woman+smiling+body+positive+eating+disorder+therapy">
+
+        <a data-elementor-open-lightbox="" href="https://www.marydioriolcsw.com/portland/depression-therapist">
+            <img src="https://qphs.fs.quoracdn.net/main-qimg-9ba146e8bf17ff943f140e979fb07b30" width="430px" title="therapyfordepression-1" alt="therapyfordepression-1">
+        </a>
+
+
+    </section>
+
+
+
+    <div class="sites">
+        <div class="list">
+            <h2 class="elementor-heading-title elementor-size-default">WANT TO IMPROVE YOUR RELATIONSHIP WITH FOOD, YOUR PARTNER, OR YOURSELF?</h2>
+
+            <p class="elementor-heading-title elementor-size-default">Sign up with your email address </p>
+
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+
+            </form>
+
+            <button onclick="myFunction()">Submit</button>
+            <script>
+                function myFunction() {
+                    alert("redirecting to a form");
+                    location.href = "https://docs.google.com/forms/d/e/1FAIpQLSePq5rPsRzezB18M-Q9acq4NOcQJ49A5jOhn6vCyD_m61QqJg/viewform?usp=sf_link";
+                }
+            </script>
+
+
+        </div>
+    </div>
+    <p> </p><div class="bottom">
+        <b><img src="https://qphs.fs.quoracdn.net/main-qimg-f6c35fc6df0124c31cbbdd2657d96f4b" height="100px" /></b>
+
+        <ul class="about">
+            <li><b>About</b></li>
+            <li><b>Join us</b></li>
+            <li><b>Contact us</b></li>
+        </ul>
+    </div>
+    </div>
+    <p></p>
+
+</body>
+</html>
