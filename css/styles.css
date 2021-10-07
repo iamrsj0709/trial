@@ -1,0 +1,220 @@
+﻿
+﻿body {
+    font-family: "Candara";
+    background-image: url( https://tse2.mm.bing.net/th?id=OIP.Er0t5jWsYPXQbi6-J9eM_AAAAA&pid=Api&P=0&w=200&h=168);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    background-color: lightskyblue;
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.bWyzHDEbvxugPkSlWsQBDgHaEK&pid=Api&P=0&w=297&h=168);
+    color: #fff;
+    height: 190px;
+}
+
+.logo {
+    float: left;
+}
+
+.list li {
+    color: rgb(8, 8, 141);
+    float: left;
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.row {
+   text-align: center;
+}
+
+.opening p {
+    padding: 100px 80px;
+}
+
+.opening h1 {
+    font-size: 50px;
+    text-align: center;
+    font-style: italics;
+}
+
+.opening h2 {
+    font-size: 25px;
+    text-align: left;
+    padding: 80px 80px;
+    width: 90%;
+}
+
+.img {
+    float: left;
+    padding: 20px 20px;
+}
+
+.opening span {
+    color: white;
+}
+
+.menu {
+    background-color: lightskyblue;
+    width: 1315;
+    height: 860px;
+}
+
+.topics h2 {
+    font-size: 40px;
+    color: rgb(180, 123, 180);
+    text-align: center;
+    padding: 70px 0.5px 0.5px 10px;
+    font-style: fantasy;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: #aa8540;
+    appearance: textfield;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 16c 0px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+    /* Links inside the dropdown */
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+        
+
+.show {
+    display: block;
+}
+.show {
+    display: block;
+}
+
+.sites {
+    background-color: lightskyblue;
+    padding-left: 150px;
+    padding-centre: 200px;
+    border-padding-top: 100px;
+    padding: 40px 50px;
+    align: center;
+}
+
+.elementor-image {
+    align-content: center;
+}
+
+
+
+.phone {
+    margin-top: 5px;
+}
+
+
+  #phone a { /* Phone number */
+        float: right;
+        padding-right: 100px;
+        font-weight: bolder;
+        font-size: 30px;
+        color: azure;
+        padding-bottom: 0;
+        text-decoration: none;
+    }
+
+#call{
+    font-size:18px;
+    text-decoration: none;
+    color: green;
+}
+
+
+/* FOOTER */
+.bottom {
+    color: black;
+    padding: 4px 5px;
+}
+.col-sm-4 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   
+}
+.text-center{
+    text-align: center;
+    font-weight: bold;
+}
+.panel-footer {
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.bWyzHDEbvxugPkSlWsQBDgHaEK&pid=Api&P=0&w=297&h=168);
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-top: 0;
+}
+
+    .panel-footer div.row {
+        margin-bottom: 35px;
+    }
+
+#hours, #address {
+    line-height: 2;
+}
+
+    #hours > span, #address > span {
+        font-size: 1.3em;
+    }
+
+    #address p {
+        font-size: .8em;
+        line-height: 1.8;
+    }
+
+#testimonials {
+    font-style: italic;
+}
+
+    #testimonials p:nth-child(2) {
+        margin-top: 25px;
+    }
+
+/* END FOOTER */
