@@ -1,0 +1,11 @@
+﻿.parallax {
+    /* The image used */
+    background-image: url("https://verv.com/wp-content/uploads/2019/05/angry_behavior-e1556891373262-1024x494.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

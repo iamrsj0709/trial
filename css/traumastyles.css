@@ -1,0 +1,11 @@
+﻿.parallax {
+    /* The image used */
+    background-image: url("https://thedawnrehab.com/wp-content/uploads/2020/03/woman-confused-questioning-2-1024x680.jpg");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
