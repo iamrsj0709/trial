@@ -9,3 +9,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.embed{
+    float: left;
+}
