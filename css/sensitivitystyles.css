@@ -1,0 +1,23 @@
+﻿.parallax {
+    /* The image used */
+    background-image: url("https://media.istockphoto.com/photos/sad-african-woman-sit-on-sofa-thinking-of-life-troubles-picture-id1226400734?k=20&m=1226400734&s=170667a&w=0&h=XdnAgRNIkJ2y0dqhlVL1Z3PzMrKZ4UwVLnMkUQLxlt0=");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallx {
+    /* The image used */
+    background-image: url("https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2018-8/9319-asian_woman_eyes_closed-1296x728-header.jpg?w=1155&h=1528");
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
